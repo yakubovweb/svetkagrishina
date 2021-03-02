@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.main--box{
+    
+    width: 80%;
+    
+    margin-top: 4vh;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(255,82,180,0.4);
+    border-radius: 30px;
+    
+}
+
+.img--logo{
+width: 100%;
+}
+
+.img--logo--box{
+    width: 91%;
+    margin: 0 auto;
+    padding-top: 28px;
+    
+}
+
+.img--1groupe{
+    width: 90px;
+}
+
+li{
+    list-style-type: none ;
+    padding: 10%;
+}
+
+.img--2groupe{
+    width: 90px;
+    
+}
+
+.links--box{
+    display: flex;
+    justify-content: space-around;
+    padding: 32px;
+}
+    
+
+.img--links--1groupe{
+
+    margin: 0 auto;
+}
+
+.news--box{
+    box-sizing: border-box;
+    width: 80%; 
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(71,178,239,0.4);
+    border-radius: 30px;
+    margin-bottom: 15px;
+   
+    
+
+}
+
+.news--logo--box{
+padding-top: 32px;
+padding-bottom: 12px;
+}
+.news--logo{
+    width: 100%;
+    
+}
+.video--news--box{
+    display: flex;
+}
+.youtube--news{
+    width: 80%;
+    height: 100%;
+}
+
+.bottom--news--box{
+    width: 100%;
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+.tt--news--box{
+    align-self: center;
+    margin-top: 32px;
+}
+.inst--news--box{
+    align-self: center;
+    margin-top: 12px;
+}
+
+.inst--news-img{
+    width: 259px;
+    margin-left: 5%;
+    margin-bottom: 156px;
+}
+
+.video--news--box{
+    height: 270px;
+
+}
+
+.tt--news--img{
+    width: 200px;
+}
+
+@media (max-width: 700px){
+    .video--news--box {
+        height: 174px;
+    }
+    .bottom--news--box{
+        flex-direction: column;
+    }
+    .bottom--news--box{
+        margin-left: 0px;
+    }
+
+    .tt--news--img{
+        width: 234px;
+        margin-top: 26px;
+    }
+
+    .youtube--news{
+        width: 234px;
+        height: 100%;
+    }
+
+    .inst--news-img{
+        width: 234px;
+        margin-left: 0px;
+        margin-bottom: 53px;
+        margin-top: 21px;
+    }
+    
+    .img--2groupe{
+        width: 60px;    
+    }
+
+    .img--1groupe{
+        width: 60px;
+    }
+    
+}
